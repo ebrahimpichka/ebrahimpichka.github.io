@@ -28,5 +28,10 @@ My primary research interests include deep reinforcement learning, applications 
   
 Moreover, I always have an eye for advancements and research in more fundamental topics of AI such as novel optimization techniques, learning methods, and architectures. 
 
+<br>
+
+<br>
+
+
 
 
