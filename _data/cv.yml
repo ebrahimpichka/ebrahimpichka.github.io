@@ -13,9 +13,9 @@
   contents:
     - title: MASc - Industrial Engineering
       institution: University of Windsor - Windsor, Ontario, Canada
-      year: Present
+      year: 2022 - Present
       description:
-        # - Description 1.
+        - "<b>Supervisor:</b> Dr. Guoqing Zhang"
         # - Description 2.
         # - title: Description 3.
         #   contents:
@@ -23,30 +23,31 @@
         #     - Sub-description 2.
     - title: BSc - Industrial Engineering
       institution: Amirkabir University of Technology (Tehran Polytechnic) - Tehran, Iran
-      year: 2022
+      year: 2017 - 2022
       description:
-        - Description 1.
-        - Description 2.
+        - "<b>Thesis:</b> Algorithmic Trading in Financial Markets Using Deep Reinforcement Learning Methods."
+        - "<b>Supervisor:</b> Dr. Masoud Mahootchi"
 
-# - title: Experience
-#   type: time_table
-#   contents:
-#     - title: Professor of Theoretical Physics
-#       institution: Institute for Advanced Study, Princeton University
-#       year: 1933 - 1955
-#       description:
-#         - Description 1.
-#         - Description 2.
-#         - title: Description 3.
-#           contents:
-#             - Sub-description 1.
-#             - Sub-description 2.
-#     - title: Visiting Professor
-#       institution: California Institute of Technology, Pasadena, California, US
-#       year: 1933
-#       description:
-#         - Description 1.
-#         - Description 2.
+- title: Experience
+  type: time_table
+  contents:
+    - title: Machine Learning Intern - Tehran, Iran
+      institution: Astyage
+      year: Apr. 2021 - Sep. 2021
+      description:
+        - Worked on conversational chat-bot assistant based on natural language processing and transformer models.
+        # - Description 2.
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+
+    - title: Data Science Intern
+      institution: Dayche Data Mining Group - Tehran, Iran
+      year: Jan. 2021 - Apr. 2021
+      description:
+        - Contributed in developing a market segmentation system using unsupervised machine learning.
+        # - Description 2.
 
 #     - title: Director
 #       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
@@ -79,17 +80,44 @@
 #       items: 
 #         - Max Planck Medal
 
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Topic 1.
-#       items: 
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
+- title: Research Interests
+  type: list
+  contents:
+      - Deep Reinforcement Learning
+      - Graph Representation Learning & Geometric Deep Learning
+      - Mathematical Programming &  Operations Research
+      - AI for Science
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Programming Languages
+      items: 
+        - Python, Julia, C++, MATLAB, SQL
+    - title: Frameworks
+      items:
+        - TensorFlow/Keras, Pytorch, PyG, JAX, Stable Baselines3, Tensorforce, Gym, Scikit-learn, SciPy, Statsmodels
+    - title: Software
+      items:
+        - Linux, Git, Docker, MongoDB
+
+
+- title: Certificates & Workshops
+  type: nested_list
+  contents:
+  - title:
+    items: 
+      - <b>Deep Learning Specialization</b> ‑ Coursera (DeepLearning.ai)
+      - <b>Reinforcement Learning Specialization</b> ‑ Coursera (University of Alberta/AMII)
+      - <b>TensorFlow Developer</b> ‑ Coursera (DeepLearning.ai)
+      - <b>Machine Learning</b> ‑ Coursera (Stanford Online)
+      - <b>Machine Learning Fundamentals</b> ‑ DataCamp
+      - <b>Deep Learning</b> ‑ DataCamp
+
+    # - title: Topic 2.
+    #   items:
+    #     - Description 1.
+    #     - Description 2.
 
 # - title: Other Interests
 #   type: list

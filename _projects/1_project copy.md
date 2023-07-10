@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
+title: project 1
 description: a project with a background image
-img: assets/img/3.jpg
-importance: 2
-category: ml
+img: assets/img/12.jpg
+importance: 1
+category: work
 ---
 
 Every project has a beautiful feature showcase page.
