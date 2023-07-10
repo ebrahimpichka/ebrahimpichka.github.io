@@ -96,7 +96,9 @@
         - Python, Julia, C++, MATLAB, SQL
     - title: Frameworks
       items:
-        - TensorFlow/Keras, Pytorch, PyG, JAX, Stable Baselines3, Tensorforce, Gym, Scikit-learn, SciPy, Statsmodels
+        - <b>ML:</b> TensorFlow, Keras, PyTorch, PyG, JAX, Stable Baselines3, Tensorforce, Gym, Scikit-learn
+        - <b>Optimization:</b> Gurobipy, Pyomo, cvxopt, PuLP
+        - <b>Statistics:</b> Statsmodels
     - title: Software
       items:
         - Linux, Git, Docker, MongoDB
