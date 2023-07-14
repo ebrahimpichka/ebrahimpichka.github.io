@@ -22,11 +22,11 @@ social: true  # includes social icons at the bottom of the page
 
 ---
 
-I am a MSc. Student and Research Assistant in Industrial Engineering Department at University of Windsor.
+I am currently a MSc. Student and Research Assistant in Industrial Engineering Department at University of Windsor.
 
 My primary research interests include deep reinforcement learning, applications of machine learning in mathematical optimization and operations research, graph representation learning, and geometric deep learning. 
   
-Moreover, I always have an eye for advancements and research in more fundamental topics of AI such as novel optimization techniques, learning methods, and architectures. 
+Moreover, I always have an eye for advancements and research frontiers in more fundamental topics of AI such as novel optimization techniques, learning methods, and architectures. 
 
 <br>
 

@@ -47,21 +47,25 @@ The Reinforcement Learning Specialization on Coursera, offered by the University
 
 Although it is not technically free, you could always apply for Coursera’s financial aid to waive the course fee if you were not to afford it. However, considering the content quality and material, it would be totally worthwhile.
 
-Link to the course:
-[**Reinforcement Learning**
-*Master the Concepts of Reinforcement Learning. Implement a complete RL solution and understand how to apply AI tools to…*www.coursera.org](https://www.coursera.org/specializations/reinforcement-learning)
+Link to the course:www.coursera.org/specializations/reinforcement-learning
 
 ### [2 - Reinforcement Learning Lecture Series 2021 — by DeepMind x UCL](https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021)
 
-![Photo from DeepMind official website by DeepMind — [**[SOURCE]](https://twitter.com/DeepMind/status/1435974267112464385)**](https://cdn-images-1.medium.com/max/2400/0*ywdNu229dv3PQnK8.png)
+
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="https://cdn-images-1.medium.com/max/2400/0*ywdNu229dv3PQnK8.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
 
 The “Reinforcement Learning Lecture Series” is a series of lectures on the topic of reinforcement learning, presented by DeepMind and UCL. This course covers a wide range of topics within the field of reinforcement learning, including foundational concepts such as Markov decision processes and dynamic programming, as well as more advanced techniques such as model-based and model-free learning and off-policy, value-/policy-based algorithms, function approximation, and deep RL. The lectures are offered by renowned academics and researchers from Deepmind and UCL. The lectures are aimed at researchers and practitioners interested in learning about the latest developments and applications in reinforcement learning. The course is offered online and is open to anyone who is interested in learning about this exciting and rapidly-evolving field.
 
- <iframe src="https://medium.com/media/db5eb41de16ad2619baf44ac45f09561" frameborder=0></iframe>
 
 Link to the course:
-[**Reinforcement Learning Lecture Series 2021**
-*Taught by DeepMind researchers, this series was created in collaboration with University College London (UCL) to offer…*www.deepmind.com](https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021)
+[**Reinforcement Learning Lecture Series 2021**](https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021)
 
 There is also an older version of this series from 2018 which could be [found here](https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2018).
 
@@ -69,45 +73,60 @@ There is also an older version of this series from 2018 which could be [found he
 
 The CS234 Reinforcement Learning course from Stanford is a comprehensive study of reinforcement learning, taught by Prof. Emma Brunskill. This course covers a wide range of topics in RL, including foundational concepts such as MDPs and Monte Carlo methods, as well as more advanced techniques like temporal difference learning and deep reinforcement learning. The course is designed for students who have a background in machine learning and are interested in learning about the latest techniques and applications in reinforcement learning. The course is offered through a series of video lectures, which are available on YouTube through the provided link.
 
-Link to the course: [https://www.youtube.com/playlist?list=PLoROMvodv4rOSOPzutgyCTapiGlY2Nd8u](https://www.youtube.com/playlist?list=PLoROMvodv4rOSOPzutgyCTapiGlY2Nd8u)
+Link to the course: [Here](https://www.youtube.com/playlist?list=PLoROMvodv4rOSOPzutgyCTapiGlY2Nd8u)
 
- <iframe src="https://medium.com/media/a60cb6e96dd763e03899c91008f81fad" frameborder=0></iframe>
 
 ### [4 - Introduction to Reinforcement Learning with David Silver](https://www.deepmind.com/learning-resources/introduction-to-reinforcement-learning-with-david-silver)
 
-![Photo from [Introduction to Reinforcement Learning with David Silver](https://www.deepmind.com/learning-resources/introduction-to-reinforcement-learning-with-david-silver) — [**[SOURCE]](https://www.deepmind.com)**](https://cdn-images-1.medium.com/max/2560/0*fiC_p1Qa5Q6iF6ms.jpg)
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="https://cdn-images-1.medium.com/max/2560/0*fiC_p1Qa5Q6iF6ms.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 
 The Introduction to Reinforcement Learning with David Silver course is a comprehensive introduction to the field of reinforcement learning, taught by Professor David Silver. Silver is a leading researcher in the field of reinforcement learning and artificial intelligence, and has been a key contributor to the development of AlphaGo, the first computer program to defeat a professional human player in the game of Go. He is also among the authors of some of the key research papers in RL such as Deep Q-Learning and DDPG algorithm. The course covers the fundamental concepts and techniques of reinforcement learning, including dynamic programming, Monte Carlo methods, and temporal difference learning. It also covers more advanced topics such as exploration-exploitation trade-offs, function approximation, and deep reinforcement learning. Overall, the course provides a solid foundation in reinforcement learning and is suitable for anyone interested in learning more about this exciting and rapidly-evolving field of artificial intelligence.
 
 Link to the course:
-[**Introduction to Reinforcement Learning with David Silver**
-*This classic 10 part course, taught by Reinforcement Learning (RL) pioneer David Silver, was recorded in 2015 and…*www.deepmind.com](https://www.deepmind.com/learning-resources/introduction-to-reinforcement-learning-with-david-silver)
+[**Introduction to Reinforcement Learning with David Silver**](https://www.deepmind.com/learning-resources/introduction-to-reinforcement-learning-with-david-silver)
 
- <iframe src="https://medium.com/media/0759d3c86a44a824b180f74150b67d35" frameborder=0></iframe>
+
 
 ### [5 - UC Berkeley CS 285: Deep Reinforcement Learning — Fall 2021](https://www.youtube.com/playlist?list=PL_iWQOsE6TfXxKgI1GgyV1B_Xa0DxE5eH)
 
 The UC Berkeley CS 285 Deep Reinforcement Learning course is a graduate-level course that covers the field of reinforcement learning, with a focus on deep learning techniques. The course is taught by Prof. Sergey Levine and is designed for students who have a strong background in machine learning and are interested in learning about the latest techniques and applications in reinforcement learning. The course covers a wide range of topics, including foundational concepts such as Markov decision processes and temporal difference learning, as well as advanced techniques like deep Q-learning and policy gradient methods. The course is offered through a series of video lectures, which are available on YouTube through the provided link.
 
-Link to the course: [https://www.youtube.com/playlist?list=PL_iWQOsE6TfXxKgI1GgyV1B_Xa0DxE5eH](https://www.youtube.com/playlist?list=PL_iWQOsE6TfXxKgI1GgyV1B_Xa0DxE5eH)
+Link to the course: [Here](https://www.youtube.com/playlist?list=PL_iWQOsE6TfXxKgI1GgyV1B_Xa0DxE5eH)
 
- <iframe src="https://medium.com/media/402236bf318a891f9fdfd9c193dedca3" frameborder=0></iframe>
+
 
 There is also an older series of the course from Fall 2020 [here](https://www.youtube.com/playlist?list=PL_iWQOsE6TfURIIhCrlt-wj9ByIVpbfGc).
 
 ### [6 - Deep RL BootCamp — UC Berkeley](https://sites.google.com/view/deep-rl-bootcamp/lectures)
 
-![Photo from [Deep RL BootCamp — UC Berkeley](https://sites.google.com/view/deep-rl-bootcamp/lectures) official website—[ **[SOURCE]](https://sites.google.com/view/deep-rl-bootcamp/lectures)**](https://cdn-images-1.medium.com/max/2000/1*_K-ar5pvp6_MpigC_9SnnA.png)
+
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="https://cdn-images-1.medium.com/max/2000/1*_K-ar5pvp6_MpigC_9SnnA.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 
 The Deep RL Bootcamp is an intensive two-day course on deep reinforcement learning, taught by leading researchers in the field. The course covers a wide range of topics, including value-based methods, policy gradient algorithms, model-based reinforcement learning, exploration and uncertainty, and deep reinforcement learning in the real world. It features a mix of lectures and hands-on exercises, giving attendees the opportunity to learn about the latest techniques and apply them to real-world problems. The course is designed for researchers and practitioners with a background in machine learning and/or reinforcement learning and is suitable for those looking to gain a deeper understanding of the field and advance their research or career in this exciting area of artificial intelligence.
 
 Link to the course:
-[**Deep RL Bootcamp - *Lectures***
-Lecturessites.google.com](https://sites.google.com/view/deep-rl-bootcamp/lectures)
+[**Deep RL Bootcamp**](https://sites.google.com/view/deep-rl-bootcamp/lectures)
 
 ### [7 - Deep Reinforcement Learning Course by HuggingFace](https://simoninithomas.github.io/deep-rl-course/)
 
-![Photo from HuggingFace [Deep RL Course official website](https://simoninithomas.github.io/deep-rl-course/) by **Simon Thomas**— [**[SOURCE]](https://simoninithomas.github.io/deep-rl-course/)**](https://cdn-images-1.medium.com/max/3840/0*MBs-nwimt6nrzs2Z.jpg)
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="https://cdn-images-1.medium.com/max/3840/0*MBs-nwimt6nrzs2Z.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 
 The Deep RL course by Hugging Face is an in-depth and interactive learning experience that covers the most important topics in deep reinforcement learning. The course is divided into units that cover various aspects of the field such as the Q-learning algorithm, policy gradients, and advanced topics like exploration, multi-agent RL, and meta-learning. Each unit includes a combination of video lectures, interactive coding tutorials, and quizzes to help learners understand and apply the concepts.
 
@@ -133,15 +152,21 @@ His online lectures, which are available on YouTube are one of the high quality 
 
 **His “Foundations of Deep RL — lecture series” on his own YouTube channel:**
 
- <iframe src="https://medium.com/media/5276e1b6cc5431f2cbee4a3eb7323ee9" frameborder=0></iframe>
+
 
 **His Lectures from CS188 Artificial Intelligence UC Berkeley, Spring 2013:**
 
- <iframe src="https://medium.com/media/f495298fdf90a98f42cacadd2154c71a" frameborder=0></iframe>
+
 
 ### [9 - Spinning Up in Deep RL by OpenAI](https://spinningup.openai.com/en/latest/user/introduction.html)
 
-![Photo from [Spinning Up in Deep RL official website](https://spinningup.openai.com/en/latest/user/introduction.html) by **OpenAI**— [**[SOURCE]](https://spinningup.openai.com/)**](https://cdn-images-1.medium.com/max/2000/0*O9DBfKY60Af4MLau.png)
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="https://cdn-images-1.medium.com/max/2000/0*O9DBfKY60Af4MLau.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 
 [Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/user/introduction.html) is developed and maintained by OpenAI. It is a resource for people who want to learn about deep reinforcement learning (RL) and how to apply it. The website provides a comprehensive introduction to RL and its algorithms and includes tutorials and guides on how to implement and run RL experiments. The website also includes a set of resources such as papers, videos, and code examples to help users learn about RL.
 
@@ -150,8 +175,7 @@ The website is based on the software library OpenAI Baselines, which is an imple
 The website is designed to be accessible to people with different levels of experience and provides a step-by-step guide to getting started with RL. The website is divided into sections, including an introduction to RL, tutorials on how to use the library, and a section on advanced topics such as multi-agent RL, exploration, and meta-learning. The website also provides a set of Jupyter notebooks that users can run and modify, allowing them to experiment with different RL algorithms and environments.
 
 The link to the website:
-[**Welcome to Spinning Up in Deep RL! - Spinning Up documentation**
-*Edit description*spinningup.openai.com](https://spinningup.openai.com/en/latest/index.html)
+[**Welcome to Spinning Up in Deep RL! - Spinning Up documentation**](https://spinningup.openai.com/en/latest/index.html)
 
 ### 10 - Phil Tabor’s RL Courses
 
@@ -167,7 +191,7 @@ His more practical approach to the field makes it rather much different than oth
 
 There are tons of great books published about reinforcement learning however 5 of the most popular and comprehensive ones are listed below:
 
-### [1. Richard Sutton and Andrew Barto, “**Reinforcement Learning: An Introduction” **(2nd Edition)](http://incompleteideas.net/book/RLbook2020.pdf) — Most Recommended*
+### [1. Richard Sutton and Andrew Barto, "Reinforcement Learning: An Introduction" (2nd Edition)](http://incompleteideas.net/book/RLbook2020.pdf) — Most Recommended*
 
 [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/RLbook2020.pdf) (2nd Edition) by Richard Sutton and Andrew Barto is a must-have resource for anyone interested in the field of reinforcement learning. This book provides a comprehensive introduction to the fundamental concepts and algorithms of reinforcement learning, making it an essential resource for students, researchers, and practitioners. The second edition includes new chapters on recent developments in the field and updates to existing material, making it even more current and relevant.
 
@@ -178,38 +202,40 @@ The book also covers advanced topics such as temporal-difference learning, plann
 The book also includes chapters on recent developments in the field such as deep reinforcement learning, policy gradient methods, and inverse reinforcement learning. The final chapters cover the challenges and future of the field, including safety and reliability, multi-agent reinforcement learning, and the role of reinforcement learning in artificial general intelligence.
 
 **Book Chapters:**
+<ol>
+ <li> The Reinforcement Learning Problem</li>
 
- 1. The Reinforcement Learning Problem
+ <li> Multi-arm Bandits</li>
 
- 2. Multi-arm Bandits
+ <li> Finite Markov Decision Processes</li>
 
- 3. Finite Markov Decision Processes
+ <li> Dynamic Programming</li>
 
- 4. Dynamic Programming
+ <li> Monte Carlo Methods</li>
 
- 5. Monte Carlo Methods
+ <li> Temporal-Difference Learning</li>
 
- 6. Temporal-Difference Learning
+ <li> Eligibility Traces</li>
 
- 7. Eligibility Traces
+ <li> Planning and Learning with Tabular Methods</li>
 
- 8. Planning and Learning with Tabular Methods
+ <li> On-policy Approximation of Action Values</li>
 
- 9. On-policy Approximation of Action Values
+ <li> Off-policy Approximation of Action Values</li>
 
- 10. Off-policy Approximation of Action Values
+ <li> Policy Approximation</li>
 
- 11. Policy Approximation
+ <li> Psychology</li>
 
- 12. Psychology
+ <li> Neuroscience</li>
 
- 13. Neuroscience
+ <li> Applications and Case Studies</li>
 
- 14. Applications and Case Studies
+ <li> Prospects</li>
 
- 15. Prospects
+</ol>
 
-### [2. Mykel J. Kochenderfer, “**Decision Making Under Uncertainty: Theory and Application](https://mitpress.mit.edu/9780262029254/decision-making-under-uncertainty/)”**
+### [2. Mykel J. Kochenderfer, "Decision Making Under Uncertainty: Theory and Application"](https://mitpress.mit.edu/9780262029254/decision-making-under-uncertainty/)
 
 [Decision Making Under Uncertainty: Theory and Application](https://mitpress.mit.edu/9780262029254/decision-making-under-uncertainty/), by Mykel J. Kochenderfer, is a comprehensive guide to decision-making under uncertainty, with a focus on reinforcement learning. The book covers the fundamental concepts of decision theory, Markov decision processes, and reinforcement learning algorithms, providing the reader with a solid foundation in these areas.
 
@@ -219,31 +245,34 @@ The book is intended for a broad audience, including researchers and practitione
 
 **Book Chapters:**
 
- 1. Introduction
+<ol>
+ <li> Introduction</li>
 
- 2. Probabilistic Models
+ <li> Probabilistic Models</li>
 
- 3. Decision Problems
+ <li> Decision Problems</li>
 
- 4. Sequential Problems
+ <li> Sequential Problems</li>
 
- 5. Model Uncertainty
+ <li> Model Uncertainty</li>
 
- 6. State Uncertainty
+ <li> State Uncertainty</li>
 
- 7. Cooperative Decision Making
+ <li> Cooperative Decision Making</li>
 
- 8. Probabilistic Surveillance Video Search
+ <li> Probabilistic Surveillance Video Search</li>
 
- 9. Dynamic Models for Speech Applications
+ <li> Dynamic Models for Speech Applications</li>
 
- 10. Optimized Airborne Collision Avoidance
+ <li> Optimized Airborne Collision Avoidance</li>
 
- 11. Multi-agent Planning for Persistent Surveillance
+ <li> Multi-agent Planning for Persistent Surveillance</li>
 
- 12. Integrating Automation with Humans
+ <li> Integrating Automation with Humans</li>
 
-### [3. Phil Winder, “**Reinforcement Learning](https://www.oreilly.com/library/view/reinforcement-learning/9781492072386/)”**
+</ol>
+
+### [3. Phil Winder, "Reinforcement Learning"](https://www.oreilly.com/library/view/reinforcement-learning/9781492072386/)
 
 “Reinforcement Learning” by Phil Winder is an in-depth examination of one of the most exciting and rapidly growing areas of machine learning. The book provides a comprehensive introduction to the theory and practice of reinforcement learning, covering a wide range of topics that are essential for understanding and working with this powerful technique.
 
@@ -253,29 +282,33 @@ The book also includes numerous practical examples and exercises that help reade
 
 **Book Chapters:**
 
- 1. Why Reinforcement Learning?
 
- 2. Markov Decision Processes, Dynamic Programming, and Monte Carlo Methods
+<ol>
+ <li>Why Reinforcement Learning?</li>
 
- 3. Temporal-Difference Learning, Q-Learning, and n-Step Algorithms
+ <li>Markov Decision Processes, Dynamic Programming, and Monte Carlo Methods</li>
 
- 4. Deep Q-Networks
+ <li>Temporal-Difference Learning, Q-Learning, and n-Step Algorithms</li>
 
- 5. Policy Gradient Methods
+ <li>Deep Q-Networks</li>
 
- 6. Beyond Policy Gradients
+ <li>Policy Gradient Methods</li>
 
- 7. Learning All Possible Policies with Entropy Methods
+ <li>Beyond Policy Gradients</li>
 
- 8. Improving How an Agent Learns
+ <li>Learning All Possible Policies with Entropy Methods</li>
 
- 9. Practical Reinforcement Learning
+ <li>Improving How an Agent Learns</li>
 
- 10. Operational Reinforcement Learning
+ <li>Practical Reinforcement Learning</li>
 
- 11. Conclusions and the Future
+ <li>Operational Reinforcement Learning</li>
 
-### [4. Alexander Zai and Brandon Brown, “**Deep Reinforcement Learning in Action](https://www.manning.com/books/deep-reinforcement-learning-in-action)”**
+ <li>Conclusions and the Future</li>
+
+</ol>
+
+### [4. Alexander Zai and Brandon Brown, "Deep Reinforcement Learning in Action"](https://www.manning.com/books/deep-reinforcement-learning-in-action)
 
 “Deep Reinforcement Learning in Action” by Alexander Zai and Brandon Brown is an in-depth guide that takes the reader through the process of building intelligent systems using deep reinforcement learning. The book starts by introducing the basic concepts and algorithms of reinforcement learning, including Q-learning and policy gradients. It then goes on to cover more advanced topics such as actor-critic methods and deep Q-networks (DQN), which are used to improve the performance of reinforcement learning algorithms.
 
@@ -284,30 +317,31 @@ One of the key features of the book is its emphasis on hands-on examples and exe
 In addition to covering the fundamentals of reinforcement learning, the book also covers recent advances in the field such as double DQN, prioritized replay, and A3C. These techniques are used to improve the performance of reinforcement learning algorithms and make them more efficient. The book is intended for readers with some experience in machine learning and deep learning, but no prior experience with reinforcement learning is required. The authors provide a comprehensive and accessible introduction to the field, making it an ideal choice for both beginners and experienced practitioners.
 
 **Book Chapters:**
+<ol>
+  <li>What is reinforcement learning </li>
 
- 1. What is reinforcement learning
+  <li>Modeling reinforcement learning problems: Markov decision processes </li>
 
- 2. Modeling reinforcement learning problems: Markov decision processes
+  <li>Predicting the best states and actions: Deep Q-networks </li>
 
- 3. Predicting the best states and actions: Deep Q-networks
+  <li>Learning to pick the best policy: Policy gradient methods </li>
 
- 4. Learning to pick the best policy: Policy gradient methods
+  <li>Tackling more complex problems with actor-critic methods </li>
 
- 5. Tackling more complex problems with actor-critic methods
+  <li>Alternative optimization methods: Evolutionary algorithms </li>
 
- 6. Alternative optimization methods: Evolutionary algorithms
+  <li>Distributional DQN: Getting the full story </li>
 
- 7. Distributional DQN: Getting the full story
+  <li>Curiosity-driven exploration </li>
 
- 8. Curiosity-driven exploration
+  <li>Multi-agent reinforcement learning </li>
 
- 9. Multi-agent reinforcement learning
+  <li>Interpretable reinforcement learning: Attention and relational model </li>
 
- 10. Interpretable reinforcement learning: Attention and relational model
+  <li>conclusion: A review and roadmap </li>
+</ol>
 
- 11. conclusion: A review and roadmap
-
-### [5. Maxim Lapan, “**Deep Reinforcement Learning Hands-On](https://www.packtpub.com/product/deep-reinforcement-learning-hands-on-second-edition/9781838826994)”**
+### [5. Maxim Lapan, "Deep Reinforcement Learning Hands-On"](https://www.packtpub.com/product/deep-reinforcement-learning-hands-on-second-edition/9781838826994)
 
 Deep Reinforcement Learning Hands-On” by Maxim Lapan is an updated edition of the popular guide to understanding and implementing deep reinforcement learning (DRL) techniques. This book is designed to provide readers with a solid understanding of the key concepts and techniques behind DRL and to equip them with the practical skills needed to build and train their own DRL models.
 
@@ -316,76 +350,77 @@ The book covers a wide range of topics, including the basics of reinforcement le
 With its focus on both theory and practice, “Deep Reinforcement Learning Hands-On” is the perfect guide for anyone looking to gain a deep understanding of DRL and start building their own DRL models.
 
 **Book Chapters:**
+<ol>
 
- 1. What Is Reinforcement Learning?
+   <li> What Is Reinforcement Learning?</li>
 
- 2. OpenAI Gym
+   <li> OpenAI Gym</li>
 
- 3. Deep Learning with PyTorch
+   <li> Deep Learning with PyTorch</li>
 
- 4. The Cross-Entropy Method
+   <li> The Cross-Entropy Method</li>
 
- 5. Tabular Learning and the Bellman Equation
+   <li> Tabular Learning and the Bellman Equation</li>
 
- 6. Deep Q-Networks
+   <li> Deep Q-Networks</li>
 
- 7. Higher-Level RL Libraries
+   <li> Higher-Level RL Libraries</li>
 
- 8. DQN Extensions
+   <li> DQN Extensions</li>
 
- 9. Ways to Speed up RL
+   <li> Ways to Speed up RL</li>
 
- 10. Stocks Trading Using RL
+   <li> Stocks Trading Using RL</li>
 
- 11. Policy Gradients — an Alternative
+   <li> Policy Gradients — an Alternative</li>
 
- 12. The Actor-Critic Method
+   <li> The Actor-Critic Method</li>
 
- 13. Asynchronous Advantage Actor-Critic
+   <li> Asynchronous Advantage Actor-Critic</li>
 
- 14. Training Chatbots with RL
+   <li> Training Chatbots with RL</li>
 
- 15. The TextWorld Environment
+   <li> The TextWorld Environment</li>
 
- 16. Web Navigation
+   <li> Web Navigation</li>
 
- 17. Continuous Action Space
+   <li> Continuous Action Space</li>
 
- 18. RL in Robotics
+   <li> RL in Robotics</li>
 
- 19. Trust Regions — PPO, TRPO, ACKTR, and SAC
+   <li> Trust Regions — PPO, TRPO, ACKTR, and SAC</li>
 
- 20. Black-Box Optimization in RL
+   <li> Black-Box Optimization in RL</li>
 
- 21. Advanced Exploration
+   <li> Advanced Exploration</li>
 
- 22. Beyond Model-Free — Imagination
+   <li> Beyond Model-Free — Imagination</li>
 
- 23. AlphaGo Zero
+   <li> AlphaGo Zero</li>
 
- 24. RL in Discrete Optimization
+   <li> RL in Discrete Optimization</li>
 
- 25. Multi-agent RL
+   <li> Multi-agent RL</li>
+</ol>
 
 ## Bonus: Other Useful Resources
 
-### [**The Best Tools for Reinforcement Learning in Python](https://neptune.ai/blog/the-best-tools-for-reinforcement-learning-in-python)**
+### [**The Best Tools for Reinforcement Learning in Python**](https://neptune.ai/blog/the-best-tools-for-reinforcement-learning-in-python)
 
 This post by neptune.ai provides an overview of the popular tools and libraries used in RL with Python to help readers decide which tools are best suited for their specific use case. it covers a variety of popular RL libraries such as TensorFlow, PyTorch, and OpenAI Baselines, as well as other tools such as OpenAI Gym, and RL Toolbox. The post also covers other topics such as visualization tools, model management tools and experiment tracking tools which are useful for RL. The blog post is well-organized and easy to follow. It includes code examples and links to the relevant documentation for each tool, making it a useful resource for anyone interested in getting started with RL in Python.
 [**The Best Tools for Reinforcement Learning in Python You Actually Want to Try - neptune.ai**
 *Nowadays, Deep Reinforcement Learning (RL) is one of the hottest topics in the Data Science community. The fast…*neptune.ai](https://neptune.ai/blog/the-best-tools-for-reinforcement-learning-in-python)
 
-### [**awesome-deep-rl](https://github.com/kengz/awesome-deep-rl#tutorials)**
+### [**awesome-deep-rl**](https://github.com/kengz/awesome-deep-rl#tutorials)
 
 This GitHub repository is a curated list of resources for deep reinforcement learning (RL) and contains a comprehensive list of **papers**, **tutorials**, **videos**, and other resources on various topics related to deep RL, such as Q-learning, policy gradients, exploration, meta-learning, and more. It also includes links to popular RL libraries and frameworks, such as TensorFlow, PyTorch, and OpenAI Baselines, as well as other tools and resources that are useful for RL. The repository is well-organized and easy to navigate, making it a useful resource for anyone interested in learning about deep RL.
 [**GitHub - kengz/awesome-deep-rl: A curated list of awesome Deep Reinforcement Learning resources.**
 *A curated list of awesome Deep Reinforcement Learning resources. - GitHub - kengz/awesome-deep-rl: A curated list of…*github.com](https://github.com/kengz/awesome-deep-rl#tutorials)
 
-### [Awesome Deep Reinforcement Learning in Finance](https://wire.insiderfinance.io/awesome-deep-reinforcement-learning-in-finance-f319f4302897)
+### [**Awesome Deep Reinforcement Learning in Finance**](https://wire.insiderfinance.io/awesome-deep-reinforcement-learning-in-finance-f319f4302897)
 
 this article provides an overview of the use of deep reinforcement learning (RL) in the field of finance. The article includes a curated list of resources for learning more about RL in finance, including papers, videos, and tutorials. The article discusses the potential applications of RL in finance such as portfolio management, algorithmic trading, and risk management. It also highlights some of the challenges and limitations of using RL in finance, such as the lack of data and the difficulty of evaluating the performance of RL models.
-[**Awesome Deep Reinforcement Learning in Finance**
-*A curated list of awesome deep reinforcement learning strategies & tools in finance*wire.insiderfinance.io](https://wire.insiderfinance.io/awesome-deep-reinforcement-learning-in-finance-f319f4302897)
+[**Awesome Deep Reinforcement Learning in Finance**](https://wire.insiderfinance.io/awesome-deep-reinforcement-learning-in-finance-f319f4302897)
 
 ## Refernces
 
