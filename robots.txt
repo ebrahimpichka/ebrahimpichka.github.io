@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ebrahimpichka.github.io/sitemap.xml
+Sitemap: https://epichka.com/sitemap.xml
