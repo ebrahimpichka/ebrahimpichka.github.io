@@ -4,7 +4,7 @@ title: The Best Resources to Learn Reinforcement Learning
 date: 2022-01-12 12:00:00
 description: Some of the best (mostly free) tutorials, courses, books, and more on this ever-evolving field
 tags: RL resources
-categories: Reinforcement-Learning
+categories: reinforcement-learning
 thumbnail: https://cdn-images-1.medium.com/max/2048/1*fC-GHp0h_8OSwYUIHvvhxw.png
 ---
 

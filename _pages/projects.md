@@ -1,11 +1,11 @@
-<!-- ---
+---
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Selected Research and Applied Projects.
 nav: true
 nav_order: 2
-display_categories: [work, fun, ml]
+display_categories: [ML] #  [work, fun, ml]
 horizontal: true
 ---
 
@@ -57,4 +57,4 @@ horizontal: true
   </div>
   {%- endif -%}
 {%- endif -%}
-</div> -->
+</div> 
