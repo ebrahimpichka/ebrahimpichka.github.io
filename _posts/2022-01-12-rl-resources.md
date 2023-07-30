@@ -16,6 +16,7 @@ thumbnail: https://cdn-images-1.medium.com/max/2048/1*fC-GHp0h_8OSwYUIHvvhxw.png
 </div>
 
 
+
 ## Introduction
 
 Reinforcement learning (RL) is a paradigm of AI methodologies in which an agent learns to interact with its environment in order to maximize the expectation of reward signals received from its environment. Unlike supervised learning, in which the agent is given labeled examples and learns to predict an output based on input, RL involves the agent actively taking actions in its environment and receiving feedback in the form of rewards or punishments. This feedback is used to adjust the agent’s behavior and improve its performance over time.
@@ -431,3 +432,7 @@ this article provides an overview of the use of deep reinforcement learning (RL)
 
 [2] — [https://openai.com/blog/chatgpt/](https://openai.com/blog/chatgpt/)
 
+<br>
+
+
+<font color = "gray" face = "Times New Roman" size= "1"> Author: <strong>Ebrahim Pichka</strong> </font>

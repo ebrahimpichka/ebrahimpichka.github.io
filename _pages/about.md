@@ -22,7 +22,7 @@ social: true  # includes social icons at the bottom of the page
 
 ---
 
-I am currently a MSc. Student and Research Assistant in the Industrial Engineering Department at University of Windsor.
+I'm Ebrahim Pichka and I'm currently a MSc. Student and Research Assistant in the Industrial Engineering Department at University of Windsor.
 
 My primary research interests include:
 - Graph representation learning, and geometric deep learning.

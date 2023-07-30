@@ -460,3 +460,9 @@ I’d be happy to hear any thoughts or any suggestions/changes on the post.
 [2] — **Inductive Representation Learning on Large Graphs** **(2017)**, *William L. Hamilton, Rex Ying, Jure Leskovec*. [arXiv:1706.02216v4](https://arxiv.org/abs/1706.02216v4)
 
 [3] — **Semi-Supervised Classification with Graph Convolutional Networks (2016),** *Thomas N. Kipf, Max Welling*. [arXiv:1609.02907v4](https://arxiv.org/abs/1609.02907v4)
+
+<br>
+
+
+
+<font color = "gray" face = "Times New Roman" size= "1"> Author: <strong>Ebrahim Pichka</strong> </font>

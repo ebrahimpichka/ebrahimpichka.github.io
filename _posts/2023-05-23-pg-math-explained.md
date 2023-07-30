@@ -416,3 +416,7 @@ Additionally, we explored the Actor-Critic method, which combines a policy netwo
 [4] — [spinningup.openai.com/en/latest/algorithms/vpg.html](http://spinningup.openai.com/en/latest/algorithms/vpg.html)
 
 [5] — Richard S. Sutton and Andrew G. Barto, Reinforcement Learning: An Introduction (second edition), The MIT Press **[[PDF]](http://incompleteideas.net/book/RLbook2020.pdf)**
+
+<br>
+
+<font color = "gray" face = "Times New Roman" size= "1"> Author: <strong>Ebrahim Pichka</strong> </font>
