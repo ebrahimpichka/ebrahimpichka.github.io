@@ -83,10 +83,10 @@
 - title: Research Interests
   type: list
   contents:
-      - Deep Reinforcement Learning
-      - Graph Representation Learning & Geometric Deep Learning
-      - Mathematical Programming &  Operations Research
-      - AI for Science
+      - Graph Representation Learning & Geometric Deep Learning.
+      - Deep Reinforcement Learning.
+      - Otimization & Operations Research.
+      - Learning to Optimize & Decision-focused Learning.
 
 - title: Technical Skills
   type: nested_list
@@ -109,6 +109,7 @@
   contents:
   - title:
     items: 
+      - <b>Machine Learning Engineer Nanodegree</b> ‑ Udacity
       - <b>Deep Learning Specialization</b> ‑ Coursera (DeepLearning.ai)
       - <b>Reinforcement Learning Specialization</b> ‑ Coursera (University of Alberta/AMII)
       - <b>TensorFlow Developer</b> ‑ Coursera (DeepLearning.ai)
