@@ -26,11 +26,11 @@ I'm Ebrahim Pichka and I'm currently a MSc. Student and Research Assistant in th
 
 My primary research interests include:
 - Graph representation learning, and geometric deep learning.
-- Deep reinforcement learning and sequential deciesion-making.
+- Deep reinforcement learning and sequential decision-making.
 - Optimization and operations research.
 -	Learning to Optimize & Decision-focused Learning.
   
-Moreover, I always have an eye for advances and research frontiers in fundamental areas of AI such as novel optimization techniques, learning methods, and architectures. 
+Moreover, I always have an eye for advances and research frontiers in fundamental areas of AI such as novel optimization techniques, learning methods, meta-learning and multi-task learning. 
 
 <br>
 
