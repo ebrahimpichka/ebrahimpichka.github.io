@@ -22,7 +22,7 @@ social: true  # includes social icons at the bottom of the page
 
 ---
 
-I'm Ebrahim Pichka and I'm currently a MSc. Student and Research Assistant in the Industrial Engineering Department at University of Windsor.
+I'm currently a MSc. Student and Research Assistant in the Industrial Engineering Department at University of Windsor.
 
 My primary research interests include:
 - Graph representation learning, and geometric deep learning.
@@ -30,7 +30,7 @@ My primary research interests include:
 - Optimization and operations research.
 -	Learning to Optimize & Decision-focused Learning.
   
-Moreover, I always have an eye for advances and research frontiers in fundamental areas of AI such as novel optimization techniques, learning methods, meta-learning and multi-task learning. 
+Moreover, I always have an eye for advances and research in fundamental areas of AI such as novel optimization techniques, learning methods, meta-learning and multi-task learning. 
 
 <br>
 
