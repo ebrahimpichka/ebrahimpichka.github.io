@@ -16,6 +16,7 @@
       year: 2022 - Present
       description:
         - "<b>Supervisor:</b> Dr. Guoqing Zhang"
+        - "<b>CGPA:</b> 4.0/4.0"
         # - Description 2.
         # - title: Description 3.
         #   contents:
@@ -27,6 +28,7 @@
       description:
         - "<b>Thesis:</b> Algorithmic Trading in Financial Markets Using Deep Reinforcement Learning Methods."
         - "<b>Supervisor:</b> Dr. Masoud Mahootchi"
+        - "<b>CGPA:</b> 3.2/4.0"
 
 - title: Experience
   type: time_table
@@ -85,8 +87,9 @@
   contents:
       - Graph Representation Learning & Geometric Deep Learning.
       - Deep Reinforcement Learning.
-      - Otimization & Operations Research.
+      - Mathematical Otimization & Operations Research.
       - Learning to Optimize & Decision-focused Learning.
+      - Meta Learning and Multi-task learning.
 
 - title: Technical Skills
   type: nested_list
@@ -112,6 +115,7 @@
       - <b>Machine Learning Engineer Nanodegree</b> ‑ Udacity
       - <b>Deep Learning Specialization</b> ‑ Coursera (DeepLearning.ai)
       - <b>Reinforcement Learning Specialization</b> ‑ Coursera (University of Alberta/AMII)
+      - <b>Computer Science Fundamentals</b> ‑ Coursera (University of Illinois at Urbana-Champaign)
       - <b>TensorFlow Developer</b> ‑ Coursera (DeepLearning.ai)
       - <b>Machine Learning</b> ‑ Coursera (Stanford Online)
       - <b>Machine Learning Fundamentals</b> ‑ DataCamp
