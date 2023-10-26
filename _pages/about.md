@@ -30,7 +30,7 @@ My research interests primarily cover a broad range of topics in machine learnin
 - Mathematical optimization and operations research.
 -	Learning to optimize & Decision-focused learning.
   
-Moreover, I always have an eye for advances and research in fundamental areas of AI such as novel deep learnig optimization techniques, learning methods, meta-learning and multi-task learning. 
+Moreover, I always have an eye for advances and research in fundamental areas of AI such as novel deep learnig **optimization techniques**, **learning methods and dynamics**, **meta-learning** and **multi-task learning**. 
 
 <br>
 
