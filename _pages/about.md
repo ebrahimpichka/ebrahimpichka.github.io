@@ -22,7 +22,7 @@ social: true  # includes social icons at the bottom of the page
 
 ---
 
-I'm currently a MSc. Student and Research Assistant in the Industrial Engineering Department at University of Windsor under ther the supervision of [Dr. Guoqing Zhang](https://www.uwindsor.ca/engineering/mame/337/dr-guoqing-zhang).
+I'm currently a MSc. Student and Research Assistant in the Industrial Engineering Department at University of Windsor under the supervision of [Dr. Guoqing Zhang](https://www.uwindsor.ca/engineering/mame/337/dr-guoqing-zhang).
 
 My research interests primarily cover a broad range of topics in machine learning and optimization in both applied and theoretical sense. To mention a few:
 - Graph representation learning, and geometric deep learning.
