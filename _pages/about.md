@@ -13,7 +13,7 @@ profile:
 #    <p>123 your address street</p>
 #    <p>Your City, State 12345</p>
 
-news: false  # includes a list of news items
+news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
@@ -35,7 +35,7 @@ Moreover, I always have an eye for advances and research in fundamental areas of
 <br>
 
 <div style="text-align:center">
-<font color = "gray" face = "Times New Roman" size= "2.4" align="center"> <i><strong>"If you're not interested in AI, you're probably not interested in interesting things."</strong> - Patrick H. Winston</i></font>
+<font color = "gray" face = "Times New Roman" size= "2.8" align="center"> <i><strong>"If you're not interested in AI, you're probably not interested in interesting things."</strong> - Patrick H. Winston</i></font>
 </div>
 
 <br>
