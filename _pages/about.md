@@ -33,9 +33,11 @@ My research interests primarily cover a broad range of topics in machine learnin
 Moreover, I always have an eye for advances and research in fundamental areas of AI such as novel deep learnig **optimization techniques**, **learning methods and dynamics**, **meta-learning** and **multi-task learning**. 
 
 <br>
-
 <div style="text-align:center">
-<font color = "gray" face = "Times New Roman" size= "2.8" align="center"> <i><strong>"If you're not interested in AI, you're probably not interested in interesting things."</strong> - Patrick H. Winston</i></font>
+<font color = "gray" face = "Times New Roman" size= "2.9" align="center"> <i><strong>"If you tell me precisely what it is a machine cannot do, then I can always make a machine which will do just that."</strong> ~ John von Neumann.</i></font>
+</div>
+<div style="text-align:center">
+<font color = "gray" face = "Times New Roman" size= "2.9" align="center"> <i><strong>"If you're not interested in AI, you're probably not interested in interesting things."</strong> ~ Patrick H. Winston.</i></font>
 </div>
 
 <br>

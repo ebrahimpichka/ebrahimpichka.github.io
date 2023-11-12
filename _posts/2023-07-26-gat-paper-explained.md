@@ -19,7 +19,7 @@ thumbnail: https://cdn-images-1.medium.com/max/4240/1*JeY2ChpCHoH84dyJ-Ugu3Q.png
 
 Graph neural networks (GNNs) are a powerful class of neural networks that operate on graph-structured data. They learn node representations (embeddings) by aggregating information from a node’s local neighborhood. This concept is known as ***‘message passing’*** in the graph representation learning literature.
 
-Messages (embeddings) are passed between nodes in the graph through multiple layers of the GNN. Each node **aggregates **the messages from its **neighbors **to **update **its representation. This process is repeated across layers, allowing nodes to obtain representations that encode richer information about the graph. Some of the important variants of GNNs can are GraphSAGE [2], Graph Convolution Network [3], etc. You can explore more GNN variants [here](https://paperswithcode.com/methods/category/graph-models).
+Messages (embeddings) are passed between nodes in the graph through multiple layers of the GNN. Each node **aggregates** the messages from its **neighbors** to **update** its representation. This process is repeated across layers, allowing nodes to obtain representations that encode richer information about the graph. Some of the important variants of GNNs can are GraphSAGE [2], Graph Convolution Network [3], etc. You can explore more GNN variants [here](https://paperswithcode.com/methods/category/graph-models).
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -103,9 +103,9 @@ Now having in mind that we obtained a transformed version of our input node feat
 
 As described in the paper, at the end of a graph attention layer, **for each node *i***, we need to obtain a new feature vector that is more structure- and context-aware from its neighborhood.
 
-This is done by calculating a **weighted sum **of neighboring node features followed by a non-linear activation function *σ*. This weighted sum is also known as the ‘Aggregation Step’ in the general GNN layer operations, according to Graph ML literature.
+This is done by calculating a **weighted sum** of neighboring node features followed by a non-linear activation function *σ*. This weighted sum is also known as the ‘Aggregation Step’ in the general GNN layer operations, according to Graph ML literature.
 
-These **weights *αᵢⱼ*** ∈ [0, 1] are **learned **and computed by an attention mechanism that **denotes the importance** of the **neighbor *j*** features for **node *i ***during message passing and aggregation.
+These **weights *αᵢⱼ*** ∈ [0, 1] are **learned** and computed by an attention mechanism that **denotes the importance** of the **neighbor *j*** features for **node *i*** during message passing and aggregation.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -189,7 +189,7 @@ So far, it’s like we assumed the graph is fully-connected and calculated the a
 
 It can be done by assigning a **large negative score** (to approximate -∞) to elements in the scores matrix between nodes with non-existing edges so their corresponding attention weights **become zero after softmax**.
 
-We can achieve this by using the **adjacency matrix** of the graph. The adjacency matrix is an NxN matrix with 1 at row *i* and column *j* if there is an edge between node *i* and *j* and 0 elsewhere. So we create the mask by assigning -∞ to zero elements of the adjacency matrix and assigning 0 elsewhere. And then, we add the mask to our **scores **matrix. and apply the softmax function across its rows.
+We can achieve this by using the **adjacency matrix** of the graph. The adjacency matrix is an NxN matrix with 1 at row *i* and column *j* if there is an edge between node *i* and *j* and 0 elsewhere. So we create the mask by assigning -∞ to zero elements of the adjacency matrix and assigning 0 elsewhere. And then, we add the mask to our **scores** matrix. and apply the softmax function across its rows.
 
 ```py
 connectivity_mask = -9e16 * torch.ones_like(e)
@@ -201,7 +201,7 @@ e = torch.where(adj_mat > 0, e, connectivity_mask) # masked attention scores
 attention = F.softmax(e, dim=-1)
 ```
 
-Finally, according to the paper, after obtaining the attention scores and masking them with the existing edges, we get the attention **weights *αᵢⱼ ***by performing softmax over the rows of the scores matrix.
+Finally, according to the paper, after obtaining the attention scores and masking them with the existing edges, we get the attention **weights *αᵢⱼ*** by performing softmax over the rows of the scores matrix.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -222,7 +222,7 @@ And as discussed before, we calculate the weighted sum of the node embeddings:
 h_prime = torch.matmul(attention, h_transformed)
 ```
 
-Finally, the paper introduces the notion of **multi-head **attention, where the whole discussed operations are done through multiple parallel streams of operations, where the final result heads are either averaged or concatenated.
+Finally, the paper introduces the notion of **multi-head attention**, where the whole discussed operations are done through multiple parallel streams of operations, where the final result heads are either averaged or concatenated.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -239,7 +239,7 @@ The multi-head attention and aggregation process is illustrated below:
 </div>
 
 
-To wrap up the implementation in a cleaner modular form (as a **PyTorch module**) and to **incorporate the multi-head **attention functionality, the whole Graph Attention Layer implementation is done as follows:
+To wrap up the implementation in a cleaner modular form (as a PyTorch module) and **to incorporate the multi-head attention** functionality, the whole Graph Attention Layer implementation is done as follows:
 
 ```py
 import torch
@@ -339,7 +339,7 @@ Next, the authors do a comparison between GATs and some of the other existing GN
 
  1. GATs are computationally more efficient than some existing methods due to being able to compute attention weights and perform the local aggregation **in parallel**.
 
- 2. GATs can assign **different importance **to neighbors of a node while aggregating messages which can enable a leap in model capacity and increase interpretability.
+ 2. GATs can assign **different importance** to neighbors of a node while aggregating messages which can enable a leap in model capacity and increase interpretability.
 
  3. GAT does consider the complete neighborhood of nodes (does not require sampling from neighbors) and it does not assume any ordering within nodes.
 
