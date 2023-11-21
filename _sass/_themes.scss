@@ -48,11 +48,11 @@
 }
 
 html[data-theme='dark'] {
-  --global-bg-color: #{$cstm-nord-bg}; //#{$grey-color-dark};
+  --global-bg-color: #{$cstm-synth-bg}; //#{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$cstm-nord-4};
-  --global-text-color-light: {$cstm-nord-6}; //#{$grey-color-light};
-  --global-theme-color: #{$cstm-nord-12}; // #{$light-cyan-color};
+  --global-text-color: #{$cstm-synth-txt};
+  --global-text-color-light: #ffffffff; //{$cstm-nord-6}; //#{$grey-color-light};
+  --global-theme-color: #{$cstm-synth-var}; // #{$light-cyan-color};
   --global-hover-color: #{$cstm-nord-3};
   --global-hover-text-color: #{$cstm-nord-7};
   --global-footer-bg-color: #{$grey-color-light};
