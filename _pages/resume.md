@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /resume
+permalink: /resume/
 title: resume
-redirect_to: /assets/pdf/resume.pdf
+redirect_to: "/assets/pdf/resume.pdf"
 ---
