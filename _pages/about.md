@@ -25,9 +25,9 @@ social: true  # includes social icons at the bottom of the page
 I'm currently a MSc. Student and Research Assistant in the Industrial Engineering Department at University of Windsor under the supervision of [Dr. Guoqing Zhang](https://www.uwindsor.ca/engineering/mame/337/dr-guoqing-zhang).
 
 My research interests primarily cover a broad range of topics in machine learning and optimization in both applied and theoretical sense. To mention a few:
-- Graph representation learning, and geometric deep learning.
+- Graph representation learning, and deep learning on graphs.
 - Deep reinforcement learning and sequential decision-making.
-- Mathematical optimization and operations research.
+- Combinatorial optimization and operations research.
 -	Learning to optimize & Decision-focused learning.
   
 Moreover, I always have an eye for advances and research in fundamental areas of AI such as novel deep learnig **optimization techniques**, **learning methods and dynamics**, **meta-learning** and **multi-task learning**. 
