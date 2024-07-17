@@ -1,12 +1,14 @@
-<!-- ---
+---
 layout: page
 permalink: /resources/
 title: Resources
 description: A collection of resources and links.
 nav: true
 nav_order: 4
+redirect_to: https://pichka.notion.site/Resources-267e42cb125e4fbd80f9bd5b2edf66eb?pvs=4
 ---
-
+<!-- use notion site instead -->
+<!-- 
 - [Graph ML & Graph Neural Networks](./gml)
 - [Reinforecement Learning](./rl)
 - [Deep Learning](./dl)
