@@ -34,8 +34,12 @@ Moreover, I always have an eye for advances and research in fundamental areas of
 
 <br>
 <div style="text-align:center">
-<font color = "gray" face = "Times New Roman" size= "2.9" align="center"> <i><strong>"If you tell me precisely what it is a machine cannot do, then I can always make a machine which will do just that."</strong> ~ John von Neumann.</i></font>
+<font color = "gray" face = "Times New Roman" size= "3.1" align="center"> "In opposition to the foolish <i>ignorabimus</i> our slogan shall be:
+<strong>We must know — we will know!</strong>" ~ <i>David Hilbert.</i></font>
 </div>
+<!-- <div style="text-align:center">
+<font color = "gray" face = "Times New Roman" size= "2.9" align="center"> <i><strong>"If you tell me precisely what it is a machine cannot do, then I can always make a machine which will do just that."</strong> ~ John von Neumann.</i></font>
+</div> -->
 <!-- <div style="text-align:center">
 <font color = "gray" face = "Times New Roman" size= "2.9" align="center"> <i><strong>"If you're not interested in AI, you're probably not interested in interesting things."</strong> ~ Patrick H. Winston.</i></font>
 </div> -->
