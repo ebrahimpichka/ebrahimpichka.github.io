@@ -1,11 +1,29 @@
 ---
-layout: post
+layout: distill
 title: Graph Attention Networks Paper Explained With Illustration and PyTorch Implementation
 date: 2023-07-26 14:57:00
 description: A detailed and illustrated walkthrough of the “Graph Attention Networks” paper by Veličković et al. with the PyTorch implementation of the proposed model.
+giscus_comments: true
+authors:
+  - name: Ebrahim Pichka
+    affiliations:
+      name: "-"
 tags: GNN GAT 
-categories: graph-representation-learning
+categories: graph-representation-learning graph-neural-networks
 thumbnail: https://cdn-images-1.medium.com/max/4240/1*JeY2ChpCHoH84dyJ-Ugu3Q.png
+toc:
+  - name: Introduction
+  - name: Going Through the Paper
+    subsections:
+      - name: Section 1 - Introduction
+      - name: Section 2 - GAT Architecture
+      - name: Section 3 - Evaluation
+        subsubsections:
+          - name: Transductive learning vs. Inductive learning
+          - name: Datasets
+          - name: Setup & Results
+  - name: Conclusion
+  - name: References
 ---
 
 
@@ -15,7 +33,7 @@ thumbnail: https://cdn-images-1.medium.com/max/4240/1*JeY2ChpCHoH84dyJ-Ugu3Q.png
     </div>
 </div>
 
-## Introduction
+# Introduction
 
 Graph neural networks (GNNs) are a powerful class of neural networks that operate on graph-structured data. They learn node representations (embeddings) by aggregating information from a node’s local neighborhood. This concept is known as ***‘message passing’*** in the graph representation learning literature.
 
@@ -35,9 +53,9 @@ In this post, we will walk through the crucial part of the original “Graph Att
 
 You can also access the full code used in this post, containing the training and validation code in [this GitHub repository](https://github.com/ebrahimpichka/GAT-pt)
 
-## Going Through the Paper
+# Going Through the Paper
 
-### Section 1 — *Introduction*
+## Section 1 - Introduction
 
 After broadly reviewing the existing methods in the graph representation learning literature in Section 1, “*Introduction*”, the Graph Attention Network (GAT) is introduced. The authors mention:
 
@@ -55,7 +73,7 @@ After broadly reviewing the existing methods in the graph representation learnin
 
 Then After comparing their approach to some existing methods and mentioning the general similarities and differences between them, they move forward to the next section of the paper.
 
-### Section 2 — GAT Architecture
+## Section 2 - GAT Architecture
 
 In this section, which accounts for the main part of the paper, the Graph Attention Network architecture is laid out in detail. To move forward with the explanation, assume the proposed architecture performs on a graph with ***N nodes (V = {vᵢ}; i=1,…,N)*** and each node is represented with a **vector hᵢ** of **F elements**, With any arbitrary setting of edges existing between nodes.
 
@@ -345,18 +363,18 @@ Next, the authors do a comparison between GATs and some of the other existing GN
 
  4. GAT can be reformulated as a particular instance of MoNet (Monti et al., 2016) by setting the pseudo-coordinate function to be u(*x, y*) = f(*x*)**\|\|**f(*y*), where f(*x*) represents (potentially MLP-transformed) features of node *x* and **\|\|** is concatenation; and the weight function to be wj(*u*) = softmax(MLP(*u*))
 
-### Section 3 — Evaluation
+## Section 3 - Evaluation
 
 In the third section of the paper, first, the authors describe the benchmarks, datasets, and tasks on which the GAT is evaluated. Then they present the results of their evaluation of the model.
 
-#### Transductive learning vs. Inductive learning
+### Transductive learning vs. Inductive learning
 Datasets used as benchmarks in this paper are differentiated into two types of tasks: **Transductive and Inductive.**
 
 - **Inductive learning:** It is a type of supervised learning task in which a model is trained only on a set of labeled training examples and the trained model is evaluated and tested on examples that were completely unobserved during training. It is the type of learning which is known as common supervised learning.
 
 - **Transductive learning:** In this type of task, all the data, including training, validation, and test instances, are used during training. But in each phase, only the corresponding set of labels is accessed by the model. Meaning during training, the model is only trained using the **loss** that is resulted from the training instances and labels, but the test and validation features are used for the message passing. It is mostly because of the structural and contextual information existing in the examples.
 
-#### Datasets
+### Datasets
 In the paper, four benchmark datasets are used to evaluate GATs, three of which correspond to transductive learning, and one other is used as an inductive learning task.
 
 The transductive learning datasets, namely **Cora**, **Citeseer**, and **Pubmed** (Sen et al., 2008) datasets are all **citation graphs** in which nodes are published documents and edges (connections) are citations among them, and the node features are elements of a bag-of-words representation of a document. The inductive learning dataset is a **protein-protein interaction (PPI)** dataset containing graphs are different **human tissues** (Zitnik & Leskovec, 2017). Datasets are described more below:
@@ -367,7 +385,7 @@ The transductive learning datasets, namely **Cora**, **Citeseer**, and **Pubmed*
     </div>
 </div>
 
-#### Setup & Results
+### Setup & Results
 
 For the three transductive tasks, the setting used for training is as follows:
 
@@ -445,7 +463,7 @@ After testing, the authors report the following performance for the four benchma
 </div>
 
 
-## Conclusion
+# Conclusion
 
 To conclude, in this blog post, I tried to take a detailed and easy-to-follow approach in explaining the “Graph Attention Networks” paper by Veličković et al. by using illustrations to help readers understand the main ideas behind these networks and why they are important for working with complex graph-structured data (e.g., social networks or molecules). Additionally, the post includes a practical implementation of the model using PyTorch, a popular programming framework. By going through the blog post and trying out the code, I hope readers can gain a solid understanding of how GATs work and how they can be applied in real-world scenarios. I hope this post has been helpful and encouraging to explore this exciting area of research further.
 
@@ -453,7 +471,7 @@ Plus, you can access the full code used in this post, containing the training an
 
 I’d be happy to hear any thoughts or any suggestions/changes on the post.
 
-## References
+# References
 
 [1] — **Graph Attention Networks (2017)**, *Petar Veličković, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Liò, Yoshua Bengio*. [arXiv:1710.10903v3](https://arxiv.org/abs/1710.10903v3)
 

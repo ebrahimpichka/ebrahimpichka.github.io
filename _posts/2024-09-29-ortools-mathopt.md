@@ -1,8 +1,13 @@
 ---
-layout: post
+layout: distill
 title: Solve Optimization Problems on Google Cloud Platform using Google’s OR API and OR-tools MathOpt
 date: 2024-09-29 12:00:00
 description: A quick guide to implementing and solving mathematical optimization models using Google Cloud Platform (GCP) with OR-tools MathOpt interface and OR API endpoints in Python.
+giscus_comments: true
+authors:
+  - name: Ebrahim Pichka
+    affiliations:
+      name: "-"
 tags: operations-research optimization OR
 categories: optimization
 thumbnail: https://miro.medium.com/v2/resize:fit:640/format:webp/1*FbEMA7eGy_ZEjZb6Y06c-w.jpeg

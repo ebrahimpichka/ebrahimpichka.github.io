@@ -1,8 +1,13 @@
 ---
-layout: post
+layout: distill
 title: Policy Gradient Algorithm’s Mathematics Explained with PyTorch Implementation
 date: 2023-05-23 12:00:00
 description: A step-by-step explanation of the vanilla policy gradient algorithm and its implementation.
+giscus_comments: true
+authors:
+  - name: Ebrahim Pichka
+    affiliations:
+      name: "-"
 tags: RL policy-gradient REINFORCE
 categories: reinforcement-learning
 thumbnail: https://cdn-images-1.medium.com/max/2048/0*VgbxFJr_l6SmL1H-.png
