@@ -3,9 +3,10 @@ github_users:
 
 
 github_repos:
-  - ebrahimpichka/DeepRL-trade
+  - ebrahimpichka/GAT-pt
   - ebrahimpichka/attn-PG-RL-tsp
-  - ebrahimpichka/gcn-pt
+  - ebrahimpichka/awesome-optimization
+  - ebrahimpichka/DeepRL-trade
   - ebrahimpichka/ml-options-pricing
   - ebrahimpichka/DDPG-implementation
 
