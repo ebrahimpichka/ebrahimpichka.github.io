@@ -11,6 +11,20 @@ authors:
 tags: RL policy-gradient REINFORCE
 categories: reinforcement-learning
 thumbnail: https://cdn-images-1.medium.com/max/2048/0*VgbxFJr_l6SmL1H-.png
+toc:
+  - name: Introduction
+  - name: Policy Gradient Method
+    subsections:
+      - name: Derivation
+      - name: Optimization
+      - name: The Algorithm
+  - name: PyTorch Implementation
+    subsections:
+      - name: Networks
+      - name: "Training Loop (Main algorithm)"
+      - name: Training Results
+  - name: Conclusion
+  - name: References
 ---
 
 
@@ -20,27 +34,13 @@ thumbnail: https://cdn-images-1.medium.com/max/2048/0*VgbxFJr_l6SmL1H-.png
     </div>
 </div>
 
-
-**Table of Content**
-- **[Introduction](#introduction)**
-- **[Policy Gradient Method](#policy-gradient-method)**
-    - [Derivation](#derivation)
-    - [Optimization](#optimization)
-    - [The Algorithm](#the-algorithm)
-- **[PyTorch Implementation](#pyTorch-implementation)**
-    - [Networks](#networks)
-    - [Training Loop (Main algorithm)](#training-loop-main-algorithm)
-    - [Training Results](#training-Results)
-- **[Conclusion](#conclusion)**
-- **[References](#references)**
-
 ---
 
 ## Introduction
 
-Reinforcement Learning (RL) is a subdomain of AI that aims to enable machines to learn and improve their behavior by interacting with an environment and receiving feedback in the form of reward signals. This environment is mathematically formulated as a Markov Decision Process (MDP) where at each timestep, the agent is known to be at a certain state **(s ∈ *S*)** where it is able to take action **(a ∈ *A*)**. This action results in a transition from state **s** to a new state **(s’ ∈ *S)*** with a certain probability from a dynamics function ***P(s, a, s’)*** and receiving a scalar reward **r** from a reward function ***R(s, a, s’)***. That said, MDPs can be shown by a tuple of sets **(*S, A, P, R, γ*)** in which γ ∈ (0, 1] is a discount factor for future steps’ rewards.
+Reinforcement Learning (RL) is a subdomain of AI that aims to enable machines to learn and improve their behavior by interacting with an environment and receiving feedback in the form of reward signals. This environment is mathematically formulated as a Markov Decision Process (MDP) where at each timestep, the agent is known to be at a certain state **(s ∈ *S*)** where it is able to take action **(a ∈ *A*)**. This action results in a transition from state **s** to a new state **(s’ ∈ *S)*** with a certain probability from a dynamics function ***P(s, a, s’)*** and receiving a scalar reward **r** from a reward function ***R(s, a, s’)***. That said, MDPs can be shown by a tuple of sets $$(S, A, P, R, \gamma)$$ in which $$\gamma \in (0, 1]$$ is a discount factor for future steps’ rewards.
 
-RL algorithms can be generally categorized into two groups i.e., value-based and policy-based methods. Value-based methods aim at estimating the expected return of the states and selecting an action in that state which results in the highest expected value, which is rather an indirect way of behaving optimally in an MDP environment. In contrast, policy-based methods try to learn and optimize a policy function, which is basically a mapping from states to actions. The Policy Gradient (PG) method **[1][2]** is a popular policy-based approach in RL, which **directly **optimizes the policy function by changing its parameters using gradient ascent.
+RL algorithms can be generally categorized into two groups i.e., value-based and policy-based methods. Value-based methods aim at estimating the expected return of the states and selecting an action in that state which results in the highest expected value, which is rather an indirect way of behaving optimally in an MDP environment. In contrast, policy-based methods try to learn and optimize a policy function, which is basically a mapping from states to actions. The Policy Gradient (PG) method **[1][2]** is a popular policy-based approach in RL, which **directly** optimizes the policy function by changing its parameters using gradient ascent.
 
 PG has some advantages over value-based methods, especially when dealing with environments with continuous action spaces or high stochasticity. PG can also handle non-differentiable policies, making it suitable for complex scenarios. However, PG can suffer from some issues such as high variance in the gradient estimates, which can lead to slower convergence and/or instability.
 
@@ -50,7 +50,7 @@ In this post, we will lay out the Policy Gradient method in detail, while examin
 
 ## Policy Gradient Method
 
-As explained above, Policy Gradient (PG) methods are algorithms that aim to learn the optimal policy function directly in a Markov Decision Processes setting (*S, A, P, R, *γ). In PG, the **policy **π is represented by a parametric function (e.g., a neural network), so we can control its outputs by changing its parameters. The **policy **π maps state to actions (or probability distributions over actions).
+As explained above, Policy Gradient (PG) methods are algorithms that aim to learn the optimal policy function directly in a Markov Decision Processes setting $$(S, A, P, R, \gamma)$$. In PG, the **policy** $$\pi$$ is represented by a parametric function (e.g., a neural network), so we can control its outputs by changing its parameters. The **policy** $$\pi$$ maps state to actions (or probability distributions over actions).
 
 The goal of PG is to achieve a policy that maximizes the **expected cumulative rewards** over a trajectory of states and actions (A.K.A. the return). Let us go through how it achieves to do so.
 
