@@ -11,9 +11,14 @@
 - title: Education
   type: time_table
   contents:
+    - title: MSc - Computer Science
+      institution: Georgia Institute of Technology 
+      year: 2025 - Present
+      description:
+        - "<b>CGPA:</b> 4.0/4.0"
     - title: MASc - Industrial Engineering
       institution: University of Windsor - Windsor, Ontario, Canada
-      year: 2022 - Present
+      year: 2023 - 2024
       description:
         - "<b>Supervisor:</b> Dr. Guoqing Zhang"
         - "<b>CGPA:</b> 4.0/4.0"
@@ -33,11 +38,14 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Graduate Research Assistant 
+      institution: University of Windsor - Windsor, Ontario, Canada
+      year: Jan. 2023 - Dec. 2024
     - title: Machine Learning Intern 
       institution: Astyage - Tehran, Iran
       year: Apr. 2021 - Sep. 2021
-      description:
-        - Worked on conversational chat-bot assistant based on natural language processing and transformer models.
+      # description:
+      #   - Worked on conversational chat-bot assistant based on natural language processing and transformer models.
         # - Description 2.
         # - title: Description 3.
         #   contents:
@@ -47,8 +55,8 @@
     - title: Data Science Intern
       institution: Dayche Data Mining Group - Tehran, Iran
       year: Jan. 2021 - Apr. 2021
-      description:
-        - Contributed in developing a market segmentation system using unsupervised machine learning.
+      # description:
+      #   - Contributed in developing a market segmentation system using unsupervised machine learning.
         # - Description 2.
 
 #     - title: Director
