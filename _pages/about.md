@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: MSc Graduate from University of Windsor
+subtitle: Data Scientist at OpenHouse.ai
 
 profile:
   align: right
@@ -22,15 +22,15 @@ social: true  # includes social icons at the bottom of the page
 
 ---
 
-I'm an Industrial Engineering MSc Graduate from University of Windsor under the supervision of [Dr. Guoqing Zhang](https://www.uwindsor.ca/engineering/mame/337/dr-guoqing-zhang).
+I am a Data Scientist at [OpenHouse.ai](https://openhouse.ai/) and a Master's student in Computer Science at Georgia Tech. I previously obtained my MASc in Industrial Engineering from the University of Windsor.
 
-My research interests primarily cover a broad range of topics in machine learning and optimization in both applied and theoretical sense. To mention a few:
+My research interests primarily cover a broad range of topics in machine learning and optimization in both applied and theoretical settings. To mention a few:
 - Graph representation learning, and deep learning on graphs.
 - Deep reinforcement learning and sequential decision-making.
 - Combinatorial optimization and operations research.
 -	Learning to optimize & Decision-focused learning.
   
-Moreover, I always have an eye for advances and research in fundamental areas of AI such as novel deep learnig **optimization techniques**, **learning methods and dynamics**, **meta-learning** and **multi-task learning**. 
+Beyond these specific topics, I maintain a strong interest in the foundations of AI, keeping a close eye on advances in **optimization techniques**, **learning dynamics**, **meta-learning**, and **multi-task learning**.
 
 <br>
 <div style="text-align:center">

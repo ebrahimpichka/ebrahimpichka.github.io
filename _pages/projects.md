@@ -1,13 +1,13 @@
-<!-- ---
+---
 layout: page
 title: Projects
 permalink: /projects/
-description: Selected Research and Applied Projects.
+description: # Selected Projects
 nav: true
 nav_order: 2
 display_categories: [ML] #  [work, fun, ml]
 horizontal: true
---- -->
+---
 
 <!-- pages/projects.md -->
 <div class="projects">
