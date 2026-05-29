@@ -5,7 +5,7 @@ permalink: /projects/
 description: # Selected Projects
 nav: true
 nav_order: 2
-display_categories: [ML] #  [work, fun, ml]
+display_categories: [RL, DL, ML] #  [work, fun, ml]
 horizontal: true
 ---
 
