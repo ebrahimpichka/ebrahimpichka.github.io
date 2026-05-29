@@ -6,5 +6,5 @@ description: Implemtation and training of Proximal Policy Optimization (PPO) for
 importance: 1
 category: RL
 # github: https://github.com/ebrahimpichka/deepracer-ppo
-redirect: "/assets/pdf/deepracer-ppo.pdf"
+redirect: "/assets/pdf/deepracer_ppo.pdf"
 ---
