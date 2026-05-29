@@ -1,7 +1,7 @@
 ---
 layout: page
-title: DeepRacer: Proximal Policy Optimization and Cross-task Adaptation
-description: Implemtation and training of Proximal Policy Optimization (PPO) for AWS DeepRacer autonomous racing: 5-stage curriculum + warm-start transfer to obstacle-avoidance and head-to-bot tasks.
+title: "DeepRacer: Proximal Policy Optimization and Cross-task Adaptation"
+description: Implementation and training of Proximal Policy Optimization (PPO) for AWS DeepRacer autonomous racing: 5-stage curriculum + warm-start transfer to obstacle-avoidance and head-to-bot tasks.
 # img: assets/img/embedding_tsne_2.png
 importance: 1
 category: RL
