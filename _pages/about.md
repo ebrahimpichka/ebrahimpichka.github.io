@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Data Scientist at OpenHouse.ai
+subtitle: Applied Scientist at Thumbtack
 
 profile:
   align: right
@@ -22,14 +22,15 @@ social: true  # includes social icons at the bottom of the page
 
 ---
 
-I am a Data Scientist at [OpenHouse.ai](https://openhouse.ai/) and a Master's student in Computer Science at Georgia Tech. I previously obtained my MASc in Industrial Engineering from the University of Windsor.
+I am currently an Applied Scientist at [Thumbtack](https://www.thumbtack.com/) working on ML and causal modeling for marketplace intelligence and supply-side growth. Prior to my  current role I worked as a Data Scientist at [OpenHouse.ai](https://openhouse.ai/). I obtained my MASc in Industrial Engineering from the University of Windsor.
 
-My research interests primarily cover a broad range of topics in machine learning and optimization in both applied and theoretical settings. To mention a few:
-- Graph representation learning, and deep learning on graphs.
+Outside of work, my research interests primarily cover a broad range of topics in machine learning and optimization in both applied and theoretical settings. To mention a few: Graph representation learning, and deep learning on graphs, Deep reinforcement learning and sequential decision-making, Combinatorial optimization and operations research, Learning to optimize & Decision-focused learning.
+  
+<!-- - Graph representation learning, and deep learning on graphs.
 - Deep reinforcement learning and sequential decision-making.
 - Combinatorial optimization and operations research.
 -	Learning to optimize & Decision-focused learning.
-  
+   -->
 Beyond these specific topics, I maintain a strong interest in the foundations of AI, keeping a close eye on advances in **optimization techniques**, **learning dynamics**, **meta-learning**, and **multi-task learning**.
 
 <br>

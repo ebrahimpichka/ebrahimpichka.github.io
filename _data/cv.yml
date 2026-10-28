@@ -11,7 +11,7 @@
 - title: Education
   type: time_table
   contents:
-    - title: MSc - Computer Science
+    - title: MSc - Computer Science (part-time, online)
       institution: Georgia Institute of Technology 
       year: 2025 - Present
       description:
@@ -38,9 +38,12 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Applied Scientist 
+      institution: Thumbtack - Remote, Canada
+      year: Sept. 2026 - Present
     - title: Data Scientist 
       institution: OpenHouse.ai - Calgary, Alberta, Canada
-      year: Jun. 2025 - Present
+      year: Jun. 2025 - Aug. 2026
     - title: Graduate Research Assistant 
       institution: University of Windsor - Windsor, Ontario, Canada
       year: Jan. 2023 - Dec. 2024
